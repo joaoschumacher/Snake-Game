@@ -120,7 +120,7 @@ def gameLoop():
         if game_over == True:
             screen.fill(BLACK)
             text("You Lost!", RED, 20, 50, font_over)
-            text("Press R to Play Again or Q to Quit", RED, 10, 100, font_over)
+            text("Press R to Play Again or Q to Quit", RED, 20, 100, font_over)
             pygame.display.update()
 
         pygame.display.update()
