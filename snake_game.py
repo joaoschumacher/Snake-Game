@@ -19,7 +19,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Snake game')
-icon = pygame.image.load('snake_icon.png')
+icon = pygame.image.load('img/snake_icon.png')
 pygame.display.set_icon(icon)
 
 clock = pygame.time.Clock()
